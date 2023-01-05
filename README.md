@@ -11,7 +11,7 @@ NOTE : Installing dlib in face-recognition requires Windows 10 SDK and CMake to 
 
 The program can do the following:
 
-1. Load and store face encodings for a list of students in a JSON file called 'students.json'. This is done using the add_student() function, which takes in a student's name and the URL of an image containing the student's face, and stores the face encoding in the JSON file.
+1. Load and store face encodings for a list of students in a JSON file called 'students.json'. This is done using the add_student() function, which takes in a student's name and the path of an image containing the student's face, and stores the face encoding in the JSON file.
 
 2. Given a video stream(project can overlap with IOT as this can also be run on Raspberry PI <subject to certain limitations>) of containing a face, compare the face to the stored face encodings in 'students.json' using the scan_att() function. If a match is found, the student's name is written to a text file called 'attendance/[current date]_[current class].txt', where [current date] is the current date and [current class] is the current class as determined by the current time.
 
@@ -25,12 +25,12 @@ The program also includes some additional code for capturing video from a camera
  
 ---------------------------------------------------USAGE-------------------------------------------------------------------
 
-1.Register a student using add_student(name,url) [Note : the url must be local I have not yet integrated the requests module with it]
+1.Register a student using add_student(name,path) [Note : I have not yet integrated the requests module with it]
 
   Example : add_student('Racoon Dog','doraemon.jpg')
 
 
-2.Accept attendance using scan_att(url) [Note : the url must be a local image I have not yet integrated web cam stream with it]
+2.Accept attendance using scan_att(path) [Note :I have not yet integrated web cam stream with it]
   Example : scan_att('nobita.jpg')
   It creates a file based on the day and time with the name [current date]_[current class].txt and adds the name of the       face if detected in the 'students.json' encoding collection
   
