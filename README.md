@@ -16,4 +16,6 @@ The program can do the following:
 
 The program also includes some additional code for capturing video from a camera and detecting faces in the video using a Haar cascade classifier, but these functions are currently commented out and not being used.
   
-will fix this asap()
+will fix this asap ~uwu
+Praful M
+BMSCE ISE PB 
