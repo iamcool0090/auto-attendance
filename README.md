@@ -12,12 +12,8 @@ The program can do the following:
 3. Determine the current class based on the current time using the get_class() function and a time table stored in a JSON file called 'time_table.json'. The time table lists the class schedule for each day of the week.
 
   
-will fix this asap()
-  |
-  |
-  |
-  |
-  w
+
+
 The program also includes some additional code for capturing video from a camera and detecting faces in the video using a Haar cascade classifier, but these functions are currently commented out and not being used.
   
-  
+will fix this asap()
