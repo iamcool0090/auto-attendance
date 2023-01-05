@@ -23,7 +23,7 @@ The program can do the following:
 The program also includes some additional code for capturing video from a camera and detecting faces in the video using a Haar cascade classifier, but these functions are currently commented out and not being used.
  
  
-USAGE
+#USAGE
 
 1.Register a student using add_student(name,path) [Note : I have not yet integrated the requests module with it]
 
