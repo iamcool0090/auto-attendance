@@ -18,7 +18,25 @@ The program can do the following:
 
 
 The program also includes some additional code for capturing video from a camera and detecting faces in the video using a Haar cascade classifier, but these functions are currently commented out and not being used.
+ 
+ 
+---------------------------------------------------USAGE-------------------------------------------------------------------
+
+1.Register a student using add_student(name,url) [Note : the url must be local I have not yet integrated the requests module with it]
+
+  Example : add_student('Racoon Dog','doraemon.jpg')
+
+
+2.Accept attendance using scan_att(url) [Note : the url must be a local image I have not yet integrated web cam stream with it]
+  Example : scan_att('nobita.jpg')
+  It creates a file based on the day and time with the name [current date]_[current class].txt and adds the name of the       face it detected  
   
-will fix this asap ~uwu
+3.The timetable can be updated according to one's needs 
+
+
+
+There are some major but simple functonalities to be added I will be adding them very soon
+
+
 Praful M
 BMSCE ISE PB 
