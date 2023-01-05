@@ -29,7 +29,8 @@ The program also includes some additional code for capturing video from a camera
 
 2.Accept attendance using scan_att(url) [Note : the url must be a local image I have not yet integrated web cam stream with it]
   Example : scan_att('nobita.jpg')
-  It creates a file based on the day and time with the name [current date]_[current class].txt and adds the name of the       face it detected  
+  It creates a file based on the day and time with the name [current date]_[current class].txt and adds the name of the       face if detected in the 'students.json' encoding collection
+  
   
 3.The timetable can be updated according to one's needs 
 
