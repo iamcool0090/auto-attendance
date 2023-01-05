@@ -1,10 +1,13 @@
 # auto-attendance
 
+
+This is a Python program that uses facial recognition technology(face_recognition and cv2 (OpenCV) libraries to perform face recognition tasks) to register attendance for classes. The program takes in images of students' faces and stores their facial characteristics as face encodings. During attendance, the program compares the faces in a given image to the stored face encodings and, if a match is found, logs the student's attendance. The program also allows for a custom time table to be inputted, so that attendance can be taken for each class separately.
+
+
+
 NOTE : Installing dlib in face-recognition requires Windows 10 SDK and CMake to be preinstalled and in path
 
 
-
-This is a Python program that uses facial recognition technology(face_recognition and cv2 (OpenCV) libraries to perform face recognition tasks) to register attendance for classes. The program takes in images of students' faces and stores their facial characteristics as face encodings. During attendance, the program compares the faces in a given image to the stored face encodings and, if a match is found, logs the student's attendance. The program also allows for a custom time table to be inputted, so that attendance can be taken for each class separately.
 
 The program can do the following:
 
