@@ -1,0 +1,9 @@
+{
+    "monday" : "0,0,0,BR,PLC,ESC-1,BR,0,0,0",
+    "tudesday" : "ESC-1,POP,MCS,BR,PLC,PHY,BR,0,0,0",
+    "wednesday" : "0,0,0,BR,CEN,PHY,BR,PLC,PLC,0",
+    "thursday": "ESC-1,MCS,POP,BR,PHY,PHY,BR,0,0,0",
+    "friday": "0,MCS,MCS,BR,PHY,KAN,BR,IDT,0,0",
+    "saturday": "0,POP,POP,BR,MCS,MCS,BR,0,0,0"
+
+}
